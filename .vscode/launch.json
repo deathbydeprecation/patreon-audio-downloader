@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Launch WebExtension",
+      "type": "firefox",
+      "request": "launch",
+      "reAttach": true,
+      "addonPath": "${workspaceFolder}",
+      "reloadOnChange": {
+        "watch": ["${workspaceFolder}/*.js"]
+      }
+    }
+  ]
+}
