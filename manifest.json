@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Patreon Audio Downloader",
-  "version": "1.0",
+  "version": "1.1",
   "description": "Download audio files from patreon.com",
   "background": {
     "scripts": ["background-script.js"]
@@ -9,7 +9,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.patreon.com/*"],
-      "js": ["content-scripts/download-button.js"]
+      "js": ["download-button.js"]
     }
   ],
   "permissions": ["downloads"]

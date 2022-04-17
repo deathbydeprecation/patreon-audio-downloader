@@ -23,7 +23,6 @@ var BUTTON_WRAPPER = `<div class="sc-bBHxTw dqWfoC"><div>${BUTTON}</div></div>`;
 })();
 
 function insert_buttons(author) {
-  console.log(author);
   Array.from(document.querySelectorAll('div[data-tag="post-card"]')).map(
     (post_card) => insert_button(post_card, author)
   );
